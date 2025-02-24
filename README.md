@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Laporan Praktikum
+===
 
-## Getting Started
+| | Pemrograman Berbasis Framework 2025 |
+| ------| ------|
+| NIM  | 2241720204 |
+| Nama | Ricky Putra Pratama Tedjo |
+| Kelas| TI-3A |
 
-First, run the development server:
+# Praktikum 1
+1. Jelaskan kegunaan masing-masing dari Git, VS Code dan NodeJS yang telah Anda install
+pada sesi praktikum ini! \
+Jawaban:  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    - Git digunakan untuk mengatur versi file proyek, dan menghubungkan file yang ada dalam perangkat dengan repositori luar
+    - Visual Studio Code digunakan sebagai alat pengolahan teks yang dapat mengolah file kode bahasa pemrograman dan diintegrasikan dengan berbagai fitur dan ekstensi yang dapat membantu menyiapkan environment proyek layaknya sebuah IDE.
+    - NodeJS adalah mesin eksekusi Javascript yang dapat menjalankan Javascript di luar browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.
+    - Bukti instalasi VSCode 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+        ![Bukti instalasi VSCode](/report-assets/1-1.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    - Bukti instalasi Git dan NodeJS
 
-## Learn More
+        ![Bukti instalasi Git dan NodeJS](/report-assets/1-2.png)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Praktikum 2
+1.  Pada Langkah ke-2, setelah membuat proyek baru menggunakan Next.js, terdapat beberapa
+istilah yang muncul. Jelaskan istilah tersebut, TypeScript, ESLint, Tailwind CSS, App
+Router, Import alias, App router, dan Turbopack! \
+Jawaban:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    - TypeScript adalah ekstensi dari bahasa Javascript yang menambahkan pemberian tipe data statis.
+    - ESLint adalah alat analisis kode untuk memastikan kode yang dibuat mengikuti struktur, format, dan alur logika yang konsisten.
+    - TailwindCSS adalah framework yang mempermudah modifikasi desain HTML tanpa memerlukan CSS eksternal.
+    - App Router adalah library yang berguna untuk mengatur routing dan navigasi dari aplikasi.
+    - Import Alias adalah alat yang memberi developer akses untuk memodifikasi path import agar dapat menjadi lebih pendek dan deskriptif.
+    - Turbopack adalah alat untuk mengoptimisasi performa penjalanan proyek.
 
-## Deploy on Vercel
+2.  Apa saja kegunaak folder dan file yang ada pada struktur proyek React yang tampil pada
+gambar pada tahap percobaan ke-3! \
+Jawaban:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    - Folder .next berisi file sisa hasil dari penjalanan proyek yang disimpan agar kedepannya dapat digunakan untuk mempercepat penjalanan proyek
+    - Folder node_modules berisi package yang digunakan proyek
+    - Folder public berisi 
+    - Folder src\app merupakan folder yang berisi landing page dan layout dasar proyek
+    - File .gitignore berguna untuk mengatur folder dan file yang dapat dan tidak dapat dikirim ke repositori remote
+    - File eslint.config.mjs merupakan file konfigurasi ESLint
+    - File next-env.d.ts memastikan agar typescript mengenali tipe-tipe NextJS tanpa deklarasi manual.
+    - File next.config.ts berguna untuk melakukan konfigurasi NextJs proyek
+    - File package-lock.json untuk mencatat versi dari dependensi proyek
+    - File package.json berisi dependensi proyek dan skrip otomatis yang dapat dijalankan saat build
+    - File postcss.config.mjs berguna untuk konfigurasi PostCSS
+    - File README.md berguna untuk dokumentasi proyek
+    - File tailwind.config.ts berguna untuk konfigurasi TailwindCSS
+    - File tsconfig.json berguna untuk konfigurasi TypeScript
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  - Pembuatan file proyek
+
+        ![Bukti pembuatan file proyek](/report-assets/2-1.png)
+
+    - Penjalanan proyek
+
+        ![Bukti penjalanan proyek](/report-assets/2-2.png)
+
+    - Hasil penjalanan proyek
+
+        ![Bukti hasil penjalanan proyek](/report-assets/2-3.png)
+
+# Praktikum 3
+
+- Fungsi tombol MyButton
+
+    ![Bukti fungsi MyButton](/report-assets/3-1.png)
+
+- Penambahan MyButton
+
+    ![Bukti penambahan MyButton](/report-assets/3-2.png)
+
+- Hasil Penambahan MyButton
+
+    ![Hasil penambahan MyButton](/report-assets/3-3.png)
+
+# Praktikum 4
+1. Untuk apakah kegunaan sintaks user.imageUrl? \
+Jawaban: user.imageUrl mengakses atribut imageUrl dari objek user yang kemudian digunakan untuk mengambil gambar secara online
+
+2.  - Fungsi profil dan objek user
+
+        ![Fungsi profil dan objek user](/report-assets/4-1.png)
+
+    - Penambahan fungsi dan objek
+
+        ![Penambahan fungsi profil dan objek user](/report-assets/4-2.png)
+
+    - Hasil penambahan fungsi dan objek
+
+        ![Hasil penambahan fungsi profil dan objek user](/report-assets/4-3.png)
